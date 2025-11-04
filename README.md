@@ -1,2 +1,94 @@
+# OrangeHRM Automation Project
+
+## 📄 Project Description
+
+This project automates the OrangeHRM “Login” and “Apply Leave” features using Playwright, Java, Maven, TestNG, and Allure reporting.  
+The automation is implemented following the Page Object Model (POM) design pattern for better maintainability and readability. Step-wise screenshots are captured during test execution for Allure reporting.
+
+### Tools & Technologies Used:
+- Programming Language: Java 11+
+- Automation Tool: Playwright for Java
+- Build Tool: Maven
+- Test Framework: TestNG
+- Reporting: Allure Report
+- Design Pattern: Page Object Model (POM)
+- Browser Support: Chrome, Firefox, Edge (configurable)
+---
+
+## 🗂 Project Structure
+```bash
+OrangeHRM-Automation/
+│
+├── pom.xml                     
+├── README.md                     
+├── config.properties      
+├── testng.xml
+├── README.md
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/orangehrm/
+│   │           ├── pages/            
+│   │           │   ├── LoginPage.java
+│   │           │   ├── ApplyLeavePage.java
+│   │           │   └── BasePage.java
+│   │           │
+│   │           └── utils/            
+│   │               ├── ConfigReader.java
+│   │
+│   └── test/
+│       └── java/
+│           └── com/orangehrm/tests/
+│               ├── BaseTest.java
+│               ├── LoginTest.java
+│               └── ApplyLeaveTest.java
+│
+├── Allure-result/
+├── test-output/                      
+```
+
+---
+## ⚙️ How to Clone and Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/YourUsername/OrangeHRM-Automation.git
+cd OrangeHRM-Automation
+```
+
+Install Dependencies
+- Ensure Java 11+ is installed.
+- Ensure Maven is installed.
+
+# All required dependencies are in pom.xml. Install via:
+```bash
+mvn clean install
+```
+
+##Update Configurations
+#Update config.properties with your credentials and test data if required:
+
+username=Admin
+password=admin123
+leave.from.date=2024-01-15
+leave.to.date=2024-01-16
+leave.comment=Personal leave for family event
+
+▶️ How to Run Tests
+
+Run all tests using Maven:
+```bash
 mvn clean test
+```
+
+Generate and serve Allure report:
+```bash
 allure serve allure-results
+```
+
+✅ Notes
+
+- Tests are designed with Page Object Model for maintainability.
+- Screenshots are automatically captured during test execution for Allure reporting.
+- Browser type can be changed in BaseTest or via properties (Chrome, Firefox, Edge).
+
