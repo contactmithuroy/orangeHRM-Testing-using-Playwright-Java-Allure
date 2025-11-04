@@ -89,8 +89,11 @@ Generate and serve Allure report:
 allure serve allure-results
 ```
 ### Output: 
+- Dashboard of Allure Report
+  
 <img width="1348" height="361" alt="image" src="https://github.com/user-attachments/assets/07a060fe-7b6b-4c34-aeba-f1c6d9354f5c" />
 
+- Captured Failed test case screenshot during test execution and display in Allure reporting.
 <img width="1359" height="499" alt="image" src="https://github.com/user-attachments/assets/c55c625f-e639-463d-a5b8-fdbbe0de8ff2" />
 
 ### Video Execution Output
