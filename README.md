@@ -52,8 +52,8 @@ OrangeHRM-Automation/
 
 ### Clone the repository
 ```bash
-git clone https://github.com/YourUsername/OrangeHRM-Automation.git
-cd OrangeHRM-Automation
+git clone "https://github.com/contactmithuroy/orangeHRM-Testing-using-Playwright-Java-Allure.git"
+cd orangeHRM-Testing-using-Playwright-Java-Allure
 ```
 
 Install Dependencies
