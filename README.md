@@ -94,6 +94,10 @@ allure serve allure-results
 
 <img width="1359" height="499" alt="image" src="https://github.com/user-attachments/assets/c55c625f-e639-463d-a5b8-fdbbe0de8ff2" />
 
+### Video Execution Output
+[Watch Video](https://drive.google.com/file/d/1sWXQjHrn8zSjiLVEy_4tMox_NpJQjuUB/view?usp=sharing)
+
+
 ### ✅ Notes
 
 Tests are designed with Page Object Model for maintainability.
