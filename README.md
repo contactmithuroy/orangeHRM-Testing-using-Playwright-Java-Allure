@@ -15,7 +15,7 @@ The automation is implemented following the Page Object Model (POM) design patte
 - Browser Support: Chrome, Firefox, Edge (configurable)
 ---
 
-## 🗂 Project Structure
+### 🗂 Project Structure
 ```bash
 OrangeHRM-Automation/
 │
@@ -48,7 +48,7 @@ OrangeHRM-Automation/
 ```
 
 ---
-## ⚙️ How to Clone and Setup
+### ⚙️ How to Clone and Setup
 
 ### Clone the repository
 ```bash
@@ -57,15 +57,19 @@ cd OrangeHRM-Automation
 ```
 
 Install Dependencies
+
 - Ensure Java 11+ is installed.
+
 - Ensure Maven is installed.
 
 # All required dependencies are in pom.xml. Install via:
+
 ```bash
 mvn clean install
 ```
 
-##Update Configurations
+### Update Configurations
+
 #Update config.properties with your credentials and test data if required:
 
 username=Admin
@@ -85,10 +89,16 @@ Generate and serve Allure report:
 ```bash
 allure serve allure-results
 ```
+### Output: 
+<img width="1348" height="361" alt="image" src="https://github.com/user-attachments/assets/07a060fe-7b6b-4c34-aeba-f1c6d9354f5c" />
 
-✅ Notes
+<img width="1359" height="499" alt="image" src="https://github.com/user-attachments/assets/c55c625f-e639-463d-a5b8-fdbbe0de8ff2" />
 
-- Tests are designed with Page Object Model for maintainability.
-- Screenshots are automatically captured during test execution for Allure reporting.
-- Browser type can be changed in BaseTest or via properties (Chrome, Firefox, Edge).
+### ✅ Notes
+
+Tests are designed with Page Object Model for maintainability.
+
+Screenshots are automatically captured during test execution for Allure reporting.
+
+Browser type can be changed in BaseTest or via properties (Chrome, Firefox, Edge).
 
