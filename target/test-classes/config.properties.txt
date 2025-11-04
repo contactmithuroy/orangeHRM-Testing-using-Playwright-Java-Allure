@@ -1,0 +1,16 @@
+# Browser Configuration
+browser=edge
+headless=false
+
+# Application URL
+baseUrl=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+# Login Credentials
+username=Admin
+password=admin123
+
+# Leave Test Data
+leave.type=CAN - Personal
+leave.from.date=2024-01-15
+leave.to.date=2024-01-17
+leave.comment=Personal leave for family event

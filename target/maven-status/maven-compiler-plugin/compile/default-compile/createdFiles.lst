@@ -1,0 +1,4 @@
+com\orangehrm\utils\ConfigReader.class
+com\orangehrm\pages\ApplyLeavePage.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\pages\BrowserFactory.class

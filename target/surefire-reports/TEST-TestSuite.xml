@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="295.436" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="G:\Work Station For PlayWright\OrangeHRM\orangeHRM\target\test-classes;G:\Work Station For PlayWright\OrangeHRM\orangeHRM\target\classes;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\playwright\1.48.0\playwright-1.48.0.jar;C:\Users\MITHU\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\MITHU\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\MITHU\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\driver\1.48.0\driver-1.48.0.jar;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\driver-bundle\1.48.0\driver-bundle-1.48.0.jar;C:\Users\MITHU\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\MITHU\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\MITHU\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MITHU\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\MITHU\.m2\repository\org\aspectj\aspectjweaver\1.9.20.1\aspectjweaver-1.9.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\MITHU\AppData\Local\Temp\surefire15747824366351355892\surefirebooter-20251104215926853_3.jar C:\Users\MITHU\AppData\Local\Temp\surefire15747824366351355892 2025-11-04T21-59-26_167-jvmRun1 surefire-20251104215926853_1tmp surefire_0-20251104215926853_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\Work Station For PlayWright\OrangeHRM\orangeHRM\target\test-classes;G:\Work Station For PlayWright\OrangeHRM\orangeHRM\target\classes;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\playwright\1.48.0\playwright-1.48.0.jar;C:\Users\MITHU\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\MITHU\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\MITHU\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\driver\1.48.0\driver-1.48.0.jar;C:\Users\MITHU\.m2\repository\com\microsoft\playwright\driver-bundle\1.48.0\driver-bundle-1.48.0.jar;C:\Users\MITHU\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\MITHU\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\MITHU\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MITHU\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\MITHU\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\MITHU\.m2\repository\org\aspectj\aspectjweaver\1.9.20.1\aspectjweaver-1.9.20.1.jar;"/>
+    <property name="allure.results.directory" value="G:\Work Station For PlayWright\OrangeHRM\orangeHRM/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MITHU"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="G:\Work Station For PlayWright\OrangeHRM\orangeHRM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MITHU\AppData\Local\Temp\surefire15747824366351355892\surefirebooter-20251104215926853_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="MITHU"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MITHU\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MITHU\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="G:\Work Station For PlayWright\OrangeHRM\orangeHRM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="false"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\MongoDB\Server\7.0\mongosh-2.1.0-win32-x64\bin;C:\Program Files\Apache\Maven\bin;C:\Users\allure-2.27.0\bin;G:\Android Studion\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools;%ANDROID_HOME%\tools;C:\Users\MITHU\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\MITHU\AppData\Local\Programs\Python\Python310\;C:\Users\MITHU\AppData\Local\Microsoft\WindowsApps;C:\Users\MITHU\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\MITHU\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules;C:\Users\MITHU\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testApplyLeaveWithFirstAvailableType" classname="com.orangehrm.tests.ApplyLeaveTest" time="55.14">
+    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)&#10;    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;//div[@role=&apos;option&apos;]//span&quot;).first()&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)
+    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//div[@role='option']//span").first()
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2413)
+	at com.orangehrm.pages.ApplyLeavePage.selectFirstAvailableLeaveType(ApplyLeavePage.java:124)
+	at com.orangehrm.pages.ApplyLeavePage.applyLeave(ApplyLeavePage.java:41)
+	at com.orangehrm.tests.ApplyLeaveTest.testApplyLeaveWithFirstAvailableType(ApplyLeaveTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)
+    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//div[@role='option']//span").first()
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testCannotApplyLeaveWithoutLeaveType" classname="com.orangehrm.tests.ApplyLeaveTest" time="56.223">
+    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)&#10;    at Frame.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1063:23)&#10;    at FrameDispatcher.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:169:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;//label[contains(text(),&apos;From Date&apos;)]/following::input[contains(@class,&apos;oxd-input&apos;)][1]&quot;)&#10;-   locator resolved to &lt;input data-v-1f99f73c=&quot;&quot; data-v-4a95a2e0=&quot;&quot; placeholder=&quot;yyyy-dd-mm&quot; class=&quot;oxd-input oxd-input--active&quot;/&gt;&#10;-   fill(&quot;2025-11-06&quot;)&#10;- attempting fill action&#10;-   waiting for element to be visible, enabled and editable&#10;- element was detached from the DOM, retrying&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1063:23)
+    at FrameDispatcher.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:169:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//label[contains(text(),'From Date')]/following::input[contains(@class,'oxd-input')][1]")
+-   locator resolved to <input data-v-1f99f73c="" data-v-4a95a2e0="" placeholder="yyyy-dd-mm" class="oxd-input oxd-input--active"/>
+-   fill("2025-11-06")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+- element was detached from the DOM, retrying
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.Locator.fill(Locator.java:2995)
+	at com.orangehrm.pages.ApplyLeavePage.applyLeaveWithoutLeaveType(ApplyLeavePage.java:71)
+	at com.orangehrm.tests.ApplyLeaveTest.testCannotApplyLeaveWithoutLeaveType(ApplyLeaveTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1063:23)
+    at FrameDispatcher.fill (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:169:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//label[contains(text(),'From Date')]/following::input[contains(@class,'oxd-input')][1]")
+-   locator resolved to <input data-v-1f99f73c="" data-v-4a95a2e0="" placeholder="yyyy-dd-mm" class="oxd-input oxd-input--active"/>
+-   fill("2025-11-06")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+- element was detached from the DOM, retrying
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 43 more
+]]></failure>
+  </testcase>
+  <testcase name="testCannotApplyLeaveWithInvalidDateRange" classname="com.orangehrm.tests.ApplyLeaveTest" time="57.736">
+    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)&#10;    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;//div[@role=&apos;option&apos;]//span&quot;).first()&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)
+    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//div[@role='option']//span").first()
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2413)
+	at com.orangehrm.pages.ApplyLeavePage.selectFirstAvailableLeaveType(ApplyLeavePage.java:124)
+	at com.orangehrm.pages.ApplyLeavePage.applyLeaveWithInvalidDateRange(ApplyLeavePage.java:92)
+	at com.orangehrm.tests.ApplyLeaveTest.testCannotApplyLeaveWithInvalidDateRange(ApplyLeaveTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\frames.js:1013:23)
+    at FrameDispatcher.click (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\MITHU\AppData\Local\Temp\playwright-java-11562533610520778407\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("//div[@role='option']//span").first()
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+]]></failure>
+  </testcase>
+</testsuite>

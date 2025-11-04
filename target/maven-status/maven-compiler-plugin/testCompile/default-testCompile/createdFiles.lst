@@ -1,0 +1,3 @@
+com\orangehrm\tests\BaseTest.class
+com\orangehrm\tests\ApplyLeaveTest.class
+com\orangehrm\tests\LoginTest.class
