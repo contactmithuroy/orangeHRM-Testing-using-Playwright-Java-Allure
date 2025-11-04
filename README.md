@@ -70,13 +70,12 @@ mvn clean install
 
 ### Update Configurations
 
-#Update config.properties with your credentials and test data if required:
-
-username=Admin
-password=admin123
-leave.from.date=2024-01-15
-leave.to.date=2024-01-16
-leave.comment=Personal leave for family event
+# Update config.properties with your credentials and test data if required:
+- username=Admin
+- password=admin123
+- leave.from.date=2024-01-15
+- leave.to.date=2024-01-16
+- leave.comment=Personal leave for family event
 
 ▶️ How to Run Tests
 
@@ -100,9 +99,9 @@ allure serve allure-results
 
 ### ✅ Notes
 
-Tests are designed with Page Object Model for maintainability.
+- Tests are designed with Page Object Model for maintainability.
 
-Screenshots are automatically captured during test execution for Allure reporting.
+- Screenshots are automatically captured during test execution for Allure reporting.
 
-Browser type can be changed in BaseTest or via properties (Chrome, Firefox, Edge).
+- Browser type can be changed in BaseTest or via properties (Chrome, Firefox, Edge).
 
